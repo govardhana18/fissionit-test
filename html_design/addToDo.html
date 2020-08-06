@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Todo Platform</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>ToDo Platform</h1>
+        <p>
+            Welcome
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Virat Kohli
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="userList.html">Users List</a>
+                    <a class="dropdown-item" href="todoList.html">ToDo List</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </p>
+    </div>
+    <nav aria-label="breadcrumb" class="mt-1">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Add ToDo</li>
+        </ol>
+    </nav>
+    <div class="container">
+        <form class="col-md-8 offset-md-2">
+            <div class="alert alert-danger" role="alert">
+                Error: failed to add todo
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Priority</label>
+                <select class="form-control"><option>Select Priority</option><option>low</option><option>medium</option><option>high</option></select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">ToDo Content</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="button" class="form-control btn btn-primary" value="Add ToDo">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
