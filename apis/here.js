@@ -23,7 +23,7 @@ app.listen(9009, (err) => {
         console.log('Server could not start due to ' + err);
         process.exit(1);
     }
-    console.log('http - Nucleus is Live at 9009');
+    console.log('port running @9009');
 });
 
 app.use((err, req, res, next) => {
