@@ -13,6 +13,9 @@ socket port: 9008
 
 [web folder will execute react app]
 react web default: 3000
+
+[db folder will have mongodb backup]
+dbname should be fission
 ```
 
 Open [http://localhost:3000]<br>
