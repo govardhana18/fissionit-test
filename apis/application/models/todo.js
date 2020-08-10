@@ -19,6 +19,14 @@ const todoSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    status: {
+        type: String,
+        required: true,
+    },
+    viewed: {
+        type: String,
+        required: true,
+    },
 }, { timestamps: true }, { _id: false });
 
 let collectionName = 'fission_todo';

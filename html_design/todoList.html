@@ -13,8 +13,8 @@
 
 <body>
 
-    <div class="jumbotron text-center">
-        <h1>ToDo Platform</h1>
+      <!-- <div class="jumbotron text-center"> -->
+        <!-- <h1>ToDo Platform</h1>
         <p>
             Welcome
             <div class="dropdown">
@@ -23,14 +23,34 @@
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="userList.html">Users List</a>
-                    <a class="dropdown-item active" href="todoList.html">ToDo List</a>
+                    <a class="dropdown-item" href="todoList.html">ToDo List</a>
                     <a class="dropdown-item" href="#">Logout</a>
                 </div>
-        </p>
+        </p> 
+                </div>
+    -->
 
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">TODO PLATFORM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="userList.html">Users </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="todoList.html">Todos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Logout</a>
+              </li>
+          </ul>
         </div>
-    </div>
+      </nav>
+
     <nav aria-label="breadcrumb" class="mt-1">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
